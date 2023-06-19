@@ -12,7 +12,7 @@ module.exports.sub = sub;
 const sum = (...args) => {
 	let total = 0;
 	for (let num of args)
-		total += num;
+		total = add(total, num); 
 	return total;
 };
 module.exports.sum = sum;
